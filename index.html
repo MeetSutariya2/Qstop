@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q-Stop Convenience Store | Hamilton</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1586201375761-83865001e462?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header img {
+      width: 160px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin-bottom: 25px;
+    }
+
+    header a.button {
+      display: inline-block;
+      padding: 14px 35px;
+      background: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: background 0.3s ease;
+    }
+
+    header a.button:hover {
+      background: #ffc107;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    section {
+      margin-bottom: 80px;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #5e3c88;
+      margin-bottom: 30px;
+    }
+
+    section p, section ul {
+      font-size: 1.3rem;
+      line-height: 1.8;
+      color: #555;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✔️ ";
+      color: #5e3c88;
+    }
+
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+
+    .contact-info a {
+      color: #5e3c88;
+      text-decoration: none;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      max-width: 500px;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1.1rem;
+    }
+
+    .contact-form button {
+      padding: 14px 35px;
+      background: #5e3c88;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    .contact-form button:hover {
+      background: #422a63;
+    }
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+
+    footer {
+      background: #3c2566;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="5.png" alt="Q-Stop Logo">
+    <h1>Q-Stop Convenience Store</h1>
+    <p>Your neighborhood convenience stop in Hamilton</p>
+    <a href="#contact" class="button">Visit Us Today</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Located in Hamilton, Q-Stop Convenience Store offers a quick and friendly shopping experience. From snacks and beverages to household items and lottery tickets, we have all your essentials covered. We are proud to be your trusted neighborhood store!</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Wide selection of snacks and drinks</li>
+        <li>Dairy and frozen food section</li>
+        <li>Lottery tickets & mobile top-ups</li>
+        <li>ATM and bill payment services</li>
+        <li>Household essentials & daily needs</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><strong>Address:</strong> 789 King Street East, Hamilton, ON</p>
+        <p><strong>Phone:</strong> <a href="tel:+11234567890">(123) 456-7890</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@qstopstore.com">info@qstopstore.com</a></p>
+      </div>
+
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.3500470631827!2d-79.84308828450162!3d43.25002047913688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c9bda3b3c1ff7%3A0xe604b47ef8c34c3d!2sHamilton%2C%20ON!5e0!3m2!1sen!2sca!4v1681389783169!5m2!1sen!2sca"
+        allowfullscreen=""
+        loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Q-Stop Convenience Store | Hamilton, Ontario. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
